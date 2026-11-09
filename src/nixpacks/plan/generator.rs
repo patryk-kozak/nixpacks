@@ -14,9 +14,9 @@ use crate::{
 use anyhow::{bail, Context, Ok, Result};
 
 // This line is automatically updated.
-// Last Modified: 2022-08-08 17:07:44 UTC+0000
-// https://github.com/NixOS/nixpkgs/commit/053fb00690945ab06650c4508b98659c6a2343b6
-static NIXPKGS_ARCHIVE: &str = "053fb00690945ab06650c4508b98659c6a2343b6";
+// Last Modified: 2026-11-09 17:01:17 UTC+0000
+// https://github.com/NixOS/nixpkgs/commit/4fe25e12eb9f4c744966dd3de5a05246cf098601
+static NIXPKGS_ARCHIVE: &str = "4fe25e12eb9f4c744966dd3de5a05246cf098601";
 
 #[derive(Clone, Default, Debug)]
 pub struct GeneratePlanOptions {
